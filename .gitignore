@@ -3,6 +3,7 @@ dist/
 
 bun.lockb
 wrangler.toml
+yarn.lock
 
 # dev
 .yarn/

@@ -1,14 +1,14 @@
 {
   "name": "my-first-rag",
   "scripts": {
-    "dev": "wrangler dev --remote src/index.ts",
-    "deploy": "wrangler deploy --minify src/index.ts"
+    "dev": "wrangler dev --remote src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx"
   },
   "dependencies": {
-    "hono": "^4.5.0"
+    "hono": "^4.5.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240529.0",
-    "wrangler": "^3.57.2"
+    "@cloudflare/workers-types": "^4.20240725.0",
+    "wrangler": "^3.67.1"
   }
 }
